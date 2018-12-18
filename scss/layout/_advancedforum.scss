@@ -1,88 +1,115 @@
 /* Advanced Forums*/
+
 /* Post text area */
- .forum-post-panel-main {
-     background-color: #FFFFFF;
-     border-left: 1px solid #ACB6BD;
-     border-right: 1px solid #ACB6BD;
-     border-top: 1px solid #ACB6BD;
+.forum-post-panel-main {
+    background-color: #FFFFFF;
+    border-left: 1px solid #ACB6BD;
+    border-right: 1px solid #ACB6BD;
+    border-top: 1px solid #ACB6BD;
 }
-/* Forum post title */
- .forum-post-title {
-     color: #000000;
-     font-weight: bold;
-     border-bottom: 1px solid #cfc7c7;
-     padding: 1px 1px 1px 10px;
+/* Forum post tilte */
+.forum-post-title {
+    color: #000000;
+    font-weight: bold;
+    border-bottom: 1px solid #cfc7c7;
+    padding: 1px 1px 1px 10px;
+    box-sizing: border-box;
 }
 /* Post footer */
- .forum-post-footer {
-     background-color: #FFFFFF;
-     border-top: 1px solid #cfc7c7;
-     border-bottom: #cfc7c7;
-}
+.forum-post-footer {
+    background-color: #FFFFFF;
+    border-top: 1px solid #cfc7c7;
+    border-bottom: #cfc7c7;
+  }
+
 /* Table header on forum list and topic list */
- .forum-table thead forum-table-superheadera, .forum-table thead tr a:visited, .forum-table thead tr a:link {
-     color: #200303;
-     font-weight: bold;
-     font-style: normal;
+.forum-table thead forum-table-superheadera,
+.forum-table thead tr a:visited,
+.forum-table thead tr a:link {
+  color: #200303;
+  font-weight: bold;
+  font-style: normal;
 }
+
 /* Individual cells on both tables */
- .forum-table td {
-     border: 1px solid #e7e7e7;
-     background-color: #FFFFFF;
-}
- .forum-table .even .active, .forum-table .odd .active {
-     background-color: #FFFFFF;
-     border: 1px solid #d1c5c5;
-}
+.forum-table td {
+    border: 1px solid #e7e7e7;
+    background-color: #FFFFFF;
+    border: 1px solid #d1c5c5;
+  }
+
+  .forum-table tr.even td.active, .forum-table tr.odd td.active {
+    background-color: #FFFFFF;
+    border: 1px solid #d1c5c5;
+  }
 /* BUTTONIZED LINKS - GENERAL ***********************************************/
 /* Based on http://css-tricks.com/examples/ButtonMaker*/
- a.af-button-large, a.af-button-large:link, a.af-button-large:visited, a.af-button-small, a.af-button-small:link, a.af-button-small:visited, a.author-pane-link, a.author-pane-link:link, a.author-pane-link:visited {
-     color: #fff !important;
-     text-decoration: none !important;
-     background: #676C5F;
-     border: 1px solid #676C5F;
-     display: inline;
-     padding: 5px 1px;
-     line-height: 1.2em;
-     border-radius: 4px;
+
+a.af-button-large,
+a.af-button-large:link,
+a.af-button-large:visited,
+a.af-button-small,
+a.af-button-small:link,
+a.af-button-small:visited,
+a.author-pane-link,
+a.author-pane-link:link,
+a.author-pane-link:visited {
+    color: #fff !important;
+    text-decoration: none !important;
+    background: #676C5F;
+    border: 1px solid #676C5F;
+    display: inline;
+    padding: 5px 1px;
+    line-height: 1.2em;
+    border-radius: 4px;
 }
+
 /* Table name on forum list */
- .forum-table-superheader .forum-table-name, .forum-table-superheader .forum-table-name a {
-     font-weight: bold;
-     background: transparent;
-     color: #fff
+.forum-table-superheader .forum-table-name,
+.forum-table-superheader .forum-table-name a {
+ font-weight: bold;
+ background: transparent;
+ color: #fff
 }
+
 /* Table name and description on forum list and table header on topic list */
- .forum-table-wrap .forum-table-superheader, .forum-table-topics thead tr {
-     border-top: 1px solid #009390;
-     background: #009390;
-     color: rgb(24,24,24);
+.forum-table-wrap .forum-table-superheader,
+.forum-table-topics thead tr {
+    border-top: 1px solid #009390;
+    background: #009390;
+    color: rgb(24,24,24);
 }
+
 /* Author panel ofline and online infor*/
- .forum-post-panel-sub .author-pane .author-pane-line {
-     margin-bottom: 7px;
-     font-size: 10px;
+.forum-post-panel-sub .author-pane .author-pane-line
+{
+margin-bottom: 7px;
+font-size: 10px;
 }
+
 /* Header at the top of each post */
- .forum-post-info {
-     background: #ddd;
-     color: #141212;
-     font-weight: bold;
-     border: 1px solid #cfc7c7;
-     text-align: right;
+.forum-post-info {
+    background: #ddd;
+    color: #141212;
+    font-weight: bold;
+    border: 1px solid #cfc7c7;
+    text-align: right;
+  }
+/* Forum post border */
+.forum-post {
+    border: 2px solid #cfc7c7;
 }
-/*Forum post border */
- .forum-post {
-     border: 2px solid #cfc7c7;
-}
+
 /* Author information pane */
- .forum-post-panel-sub .author-pane .author-name {
-     font-weight: bold;
+.forum-post-panel-sub .author-pane .author-name {
+    font-weight: bold;
+  }
+
+.forum-post-panel-sub .author-pane .picture img {
+    border: 1px solid #E9EFF2;
+    background-color: #FFFFFF;
 }
- .forum-post-panel-sub .author-pane .picture img {
-     border: 1px solid #E9EFF2;
-     background-color: #FFFFFF;
-}
- .forum-post-panel-sub .author-pane .author-pane-label {
-     font-weight: bold;
+
+.forum-post-panel-sub .author-pane .author-pane-label {
+    font-weight: bold;
 }
