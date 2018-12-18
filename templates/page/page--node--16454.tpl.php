@@ -186,9 +186,6 @@ drupal_add_library('system', 'drupal.collapse');
     <div class="row">
       <div class="ipbes-mark col-md-6">
         <p>&copy; IPBES Secretariat</p>
-        <?php if($content['footer-contacts']): ?>
-          <?php print $content['footer-contacts']; ?>
-        <?php endif; ?>
       </div>
       <div class="partner-logos col-md-6">
         <a href="//www.unenvironment.org" target="_blank">
