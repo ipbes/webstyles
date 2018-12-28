@@ -109,3 +109,13 @@
   background: url(images/topic_top.png) no-repeat;
   display: none;
 }
+
+/* Remove spacing preceding first comment */
+.forum-post-content .field-type-text-with-summary {
+  clear: none;
+  /* replaces clear: both; */
+}
+
+.forum-post-wrapper {
+   background-color: #FFFFFF;
+}
