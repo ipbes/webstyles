@@ -27,4 +27,40 @@ function ipbes_new_preprocess_views_exposed_form(&$vars, $hook) {
     $vars['button'] = drupal_render($vars['form']['submit']);
 }
 
+// Add permalink to comments
+function ipbes_new_preprocess_comment(&$variables){
+
+  /* Easy links to the comment and parent node */
+  $comment = $variables['comment'];
+  $node = node_load($comment->nid);
+  $variables['first_post'] = $node;
+
+  // Set the post ID for theming / targetting
+  $variables['post_id'] = "post-$comment->cid";
+
+  /* Linked post number */
+  if (!isset($post_number)) {
+    static $post_number = 1;
+  }
+
+  $posts_per_page = variable_get('comment_default_per_page_' . $node->type, 50);
+
+  $page_number = !empty($_GET['page']) ? $_GET['page'] : 0;
+  if (!$page_number) {
+    $page_number = 0;
+  }
+
+  $post_number++;
+
+  $linktext = '#' . (($page_number * $posts_per_page) + $post_number);
+
+  // Permalink
+  //  You can erase next 3 lines if you wish to use built-in Permalink.
+  //  Template adjusted: $post_link -> $permalink
+  $uri = entity_uri('comment', $comment);
+  $uri['options'] += array('attributes' => array('class' => 'permalink', 'rel' => 'bookmark'));
+  $variables['permalink'] = l($linktext, $uri['path'], $uri['options']);
+
+}
+
 ?>
