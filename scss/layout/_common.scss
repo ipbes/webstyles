@@ -115,3 +115,9 @@ blockquote.pull-right .small:after {
     padding-right: 8px;
     text-align: center;
   }
+
+@media (min-width: 1200px){
+  .container{
+    width:1350px;
+  }
+}
