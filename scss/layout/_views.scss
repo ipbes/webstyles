@@ -870,52 +870,6 @@ html.js .collapsible-filters fieldset.collapsible .fieldset-wrapper {
     border-bottom: none;
     margin-bottom: 0;
 }
-.flag-expert .flag-link-toggle {position: relative;}
-
-.flag-expert a.flag-link-toggle,
-.flag-expert a.flag-link-toggle:visited {
-    background-color: #676C5F;
-    border: 1px solid #676C5F;
-    color: #ffffff!important;
-    display: block;
-    padding: 5px 12px 5px 2.33em;
-    line-height: 1.2em;
-    border-radius: 4px;
-    text-decoration: none!important;
-    text-transform: lowercase;
-}
-.flag-expert a.flag-link-toggle:active,
-.flag-expert a.flag-link-toggle:hover {
-    background: #A4AD5F;
-    border: 1px solid #A4AD5F;
-    color: #ffffff!important;
-    text-decoration: none!important
-}
-.flag-expert .flag-link-toggle::first-letter {
-    text-transform: uppercase;
-}
-
-.flag-link-toggle:after {
-    position: absolute;
-    top: 20%;
-    display: inline-block;
-    left:6px;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size:150%;
-    margin-right:6px;
-}
-
-.flag-link-toggle.unflag-action:after {
-    content: "\e014";
-}
-.flag-link-toggle.flag-action:after {
-    content: "\e013";
-}
 
 /* =========== MS: Policy support user links ============ */
 
