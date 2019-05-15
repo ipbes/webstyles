@@ -1,0 +1,191 @@
+.page-eform-submit-open-ended-stakeholder-network{
+  form{
+    .field-name-field-first-name, .field-name-field-lsat-name{
+      .form-item{
+        width: auto !important;
+      }
+    }
+  }
+}
+.page-eform-submit-organization-signup{
+  .entityform{
+    .form-wrapper{
+      .form-item{
+        width: -webkit-fill-available;
+        }
+      }
+    }
+  }
+.page-eform-submit-open-ended-stakeholder-network, .page-eform-submit-organization-signup{
+  .entityform{
+    p{
+      font-family: Helvetica;
+      font-size: 14px;
+      font-weight: 300;
+      color: #6f6f6f;
+      a{
+        color: #002e62;
+        &:hover{
+          text-decoration: none;
+        }
+      }
+    }
+    .form-wrapper{
+      .form-item{
+        display: inline-block;
+        float: left;
+        margin-right: 20px;
+        .form-control{
+          width: auto;
+          border-radius: 2px;
+          border: solid 1px #e7e7e7;
+          background-color: #ffffff;
+          font-family: Helvetica;
+          font-size: 14px;
+          font-weight: 300;
+          color: #333333;
+          height: 40px;
+          &.error{
+            border: 2px solid red !important;
+          }
+          &:focus{
+          box-shadow: none;
+          }
+          @media screen and (max-width: 767px){
+            width: 100%;
+          }
+        }
+        .form-select{
+          background-color: #f5f5f5;
+          @media screen and (max-width: 768px){
+            width: 100%;
+          }
+        }
+        .help-block{
+          display: inline-block;
+          a{
+            text-decoration: underline;
+            color: #002e62;
+          }
+          @media screen and (max-width: 768px){
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+    .form-type-select{
+      .form-selec{
+      border-radius: 2px;
+      background-color: #f5f5f5;
+      height: 40px;
+      }
+    }
+    #edit-actions{
+      width: -webkit-fill-available;
+      display: inline-block;
+      #edit-submit{
+        border-radius: 20px;
+        border: solid 1px #002e62;
+        background-color: #002e62;
+        padding: 12px 50px;
+        font-family: Helvetica;
+        font-size: 14px;
+        font-weight: bold;
+        line-height: normal;
+        color: #ffffff;
+        @media screen and (max-width: 767px){
+          width: auto;
+        }
+      }
+    }
+  }
+  h1.page-header{
+    font-family: Helvetica;
+    font-size: 44px;
+    font-weight: 900;
+    color: #002e62;
+    border: none;
+    margin-bottom: 35px;
+  }
+}
+
+.page-eform-submit-organization-signup{
+  section{
+    form{
+      #field-samples-files-download-add-more-wrapper{
+        p{
+          font-family: Helvetica;
+          font-size: 14px;
+          font-weight: bold;
+          color: #002e62;
+          a{
+            border-radius: 2px;
+            border: solid 1px #e7e7e7;
+            background-color: #f9f9f9;
+            padding: 8px 20px;
+            margin-left: 6px;
+          }
+        }
+      }
+      .image-widget-data{
+         display: inline-block;
+        .ajax-processed{
+          border: solid 1px #002e62;
+          background-color: #002e62;
+          padding: 9px 20px;
+          font-family: Helvetica;
+          font-size: 14px;
+          font-weight: bold;
+          line-height: normal;
+          color: #ffffff;
+          width: auto;
+          margin: 0px;
+        }
+        @media screen and (max-width: 767px){
+          display: flex;
+          .form-file{
+            width: 100%;
+          }
+        }
+        .file-size{
+          display: none;
+        }
+        @media screen and (min-width: 768px){
+          .file{
+            margin: 0px -4px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.tab-row{
+  display: flex;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px 0 rgba(0, 0, 0, 0.09);
+  background-color: #fbfbfb;
+  padding: 0px;
+  li{
+    list-style: none;
+    a{
+      font-family: Helvetica;
+      font-size: 12px;
+      font-weight: bold;
+      color: #333333cc;
+      padding: 20px;
+      display: inline-block;
+      &:hover{
+        text-decoration: none;
+      }
+      &.is-active{
+        color: #002e62;
+        border-bottom: 2px solid #002e62;
+      }
+      &:focus{
+        outline: none;
+        text-decoration: none;
+      }
+    }
+  }
+}

@@ -62,5 +62,25 @@ function ipbes_new_preprocess_comment(&$variables){
   $variables['permalink'] = l($linktext, $uri['path'], $uri['options']);
 
 }
+function ipbes_new_preprocess_page(&$variables) {
+  $path = current_path();
+  $aliaspath = drupal_get_path_alias();
+  $alias = explode("/", $aliaspath);
+  if(($alias['0'] == "group" && $alias[1] == "onet") || 
+    ($aliaspath == "eform/submit/organization-signup") || 
+    ($aliaspath == "eform/submit/open-ended-stakeholder-network") || 
+    ($aliaspath == "forum/onet-forum")) {
+    // echo "here";die;
+    $variables['theme_hook_suggestions'][] = 'page__grouponet';
+  }
+} 
+function ipbes_new_preprocess_node(&$variables) {
+  $path = current_path();
+  $aliaspath = drupal_get_path_alias();
+  $alias = explode("/", $aliaspath);
+  if($alias['0'] == "group" && $alias[1] == "onet") {
+    $variables['theme_hook_suggestions'][] = 'node__12025';
+  }
+} 
 
 ?>
