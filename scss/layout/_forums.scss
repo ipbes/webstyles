@@ -1,0 +1,99 @@
+.forums-onet-page{
+  .forum-list-row{
+    border: solid 1px #f4f4f4;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px 0;
+    .forum{
+      .name{
+        margin-bottom: 10px;
+        a{
+          font-family: Helvetica;
+          font-size: 18px;
+          font-weight: bold;
+          color: #002e62;
+          margin-bottom: 13px;
+        }
+      }
+    }
+    .topics, .posts, .last-reply{
+      height: 14px;
+      font-family: Helvetica;
+      font-size: 14px;
+      font-weight: 500;
+      color: #333333;
+      margin-bottom: 10px;
+      .topic-tag{
+        color: #002e62;
+      }
+      .submitted{
+        a{
+          color: #002e62;
+          text-decoration: none;
+        }
+      }
+    }
+    &:hover{
+    border: solid 1px #f4f4f4;
+    background-color: #ffffff;
+    box-shadow: 2px 6px 7px 1px #f4f4f4;
+    .name{
+      a{
+        color: #002e62;
+        text-decoration: none;
+      }
+    }
+    }
+  }
+}
+
+.page-forum{
+  .main-row{
+    section{
+      position: relative;
+      h1.page-header{
+        font-family: Helvetica;
+        font-size: 44px;
+        font-weight: 900;
+        color: #002e62;
+        border: none;
+        margin-bottom: 0px;
+      }
+      ul.action-links{
+        margin: 0px;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        display: block;
+        li{
+          margin: 0px;
+          a{
+            border-radius: 20px;
+            border: solid 1px #002e62;
+            background-color: #ffffff;
+            padding: 10px 12px;
+            font-family: Helvetica;
+            font-size: 12px;
+            font-weight: bold;
+            color: #002e62;
+            margin: 0px;
+          }
+        }
+        @media screen and (max-width: 767px){
+          position: unset;
+          margin: 10px 0;
+        }
+      }
+    }
+  }
+  .onet-group-home{
+    max-width: 89%;
+    @media screen and (max-width: 1024px){
+      max-width: 91%;
+    }
+    @media screen and (max-width: 768px){
+      max-width: 100%;
+      padding: 0 15px;
+    }
+  }
+}

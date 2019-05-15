@@ -10,7 +10,8 @@ base theme  = nuboot_radix
 ; Regions
 regions[help]           = 'Help'
 regions[header]         = 'Header'
-regions[content]         = 'Content'
+regions[onet_menu]      = 'Onet Menu'
+regions[content]        = 'Content'
 regions[sidebar]        = 'Sidebar'
 
 ; Breakpoints

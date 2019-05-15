@@ -1,0 +1,189 @@
+.page-group-onet-organisation-members, .page-group-onet-individual-member{
+  h1.page-header{
+    font-family: Helvetica;
+    font-size: 44px;
+    font-weight: 900;
+    color: #333333;
+    border: none;
+    margin: 0px;
+  }
+  .views-exposed-form{
+    #edit-combine-wrapper{
+      width: 90%;
+      @media screen and (max-width: 768px){
+        width: 85%;
+        margin-right: 13px;
+      }
+      @media screen and (max-width: 767px){
+        width: 100%;
+        margin: 0px;
+        padding-right: 0px;
+      }
+      input{
+        &:focus{
+          outline: none;
+          box-shadow: none;
+          border-color: #ccc;
+        }
+      }
+    }
+    .views-submit-button{
+      padding-right: 0px;
+      .form-submit{
+        border-radius: 20px;
+        border: solid 1px #002e62;
+        background-color: #ffffff;
+        color: #002e62;
+        padding: 8px 20px;
+        background-image: none !important;
+        text-indent: 0px;
+        &:hover{
+          background-color: transparent !important;
+          box-shadow: none;
+          outline: none;
+        }
+      }
+      &:after{
+        color: #002e62;
+      }
+      @media screen and (max-width: 767px){
+        padding: 12px 0;
+      }
+    }
+  }
+  .container{
+    max-width: 90%;
+    @media screen and (max-width: 768px){
+      max-width: 100%;
+      padding: 0 15px;
+    }
+  }
+}
+
+.page-group-onet-individual-member{
+  form{
+    .views-exposed-form{
+      #edit-combine-wrapper{
+        width: 35%;
+        margin-right: 13px;
+        @media screen and (max-width: 768px){
+          width: 50%;
+          margin: 0px;
+        }
+        @media screen and (max-width: 767px){
+          width: 100%;
+        }
+        input{
+          &:focus{
+            outline: none;
+            box-shadow: none;
+            border-color: #ccc;
+          }
+        }
+      }
+      #edit-field-expertise-tid-wrapper{
+        width: 52%;
+        margin-right: 10px;
+        @media screen and (max-width: 768px){
+          width: 50%;
+          margin-right: 0px;
+          padding-right: 0px;
+          padding-left: 10px;
+        }
+        @media screen and (max-width: 767px){
+          width: 100%;
+          padding-left: 0px;
+        }
+        input{
+          &:focus{
+            outline: none;
+            box-shadow: none;
+            border-color: #ccc;
+          }
+        }
+      }
+      .views-reset-button{
+            padding-right: 0px;
+        .form-submit{
+          border: none;
+          background-color: #ffffff;
+          color: #002e62;
+          padding: 08px 0px;
+          background-image: none !important;
+          text-indent: 0px;
+          margin-left: 18px;
+          display: inline-block;
+          &:hover{
+            background-color: transparent !important;
+            box-shadow: none;
+            outline: none;
+          }
+        }
+        @media screen and (max-width: 767px){
+          padding: 12px 0;
+        }
+      }
+    }
+  }
+}
+
+.table-responsive{
+  @media screen and (max-width: 767px){
+    border: none;
+  }
+  table{
+    border-collapse: separate;
+    border-spacing: 0 10px;
+    border: none;
+    margin: 0px;
+    thead{
+      tr{
+        &:hover{
+          background-color: transparent;
+        }
+        th{
+          border: none !important;
+          background-color: transparent;
+          font-family: Helvetica;
+          font-size: 12px;
+          font-weight: bold;
+          color: #33333380;
+          padding: 20px;
+          &:hover{
+            background-color: transparent;
+          }
+        }
+      }
+    }
+    tbody{
+      border: none;
+      tr{
+        border: none;
+        &:hover{
+          background-color: #f9f9f9 !important;
+        }
+        td{
+          background-color: #fafafa !important;
+          font-family: Helvetica;
+          font-size: 14px;
+          font-weight: 300;
+          color: #333333;
+          border: none;
+          padding: 20px;
+          &:hover{
+            background-color: #f9f9f9;
+          }
+          img{
+            width: 48px;
+            height: 20px;
+            margin-right: 10px;
+            display: inline-block;
+          }
+          a{
+            color: #002e62;
+          }
+        }
+      }
+    }
+  }
+}

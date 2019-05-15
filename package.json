@@ -30,6 +30,9 @@
     "node-sass": "^4.12.0"
   },
   "dependencies": {
-    "gulp-ignore": "^2.0.2"
+    "gulp-ignore": "^2.0.2",
+    "gulp-update": "0.0.2",
+    "natives": "^1.1.6",
+    "yarn": "^1.16.0"
   }
 }
