@@ -28,7 +28,7 @@ plugins[panels][styles] = panels/styles
 stylesheets[all][]     = assets/css/ipbes_new.style.css
 
 ; Javascript
-scripts[] = assets/js/ipbes_new.script.js
+scripts[] = js/onet.script.js
 
 ; Maximum depth for dropdown menus (1 = no dropdowns, 2 = single dropdown,
 ; 3 or greater = nested dropdown menus).
