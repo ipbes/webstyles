@@ -67,6 +67,13 @@
       }
     }
   }
+  section{
+    .panel-flexible{
+      .panel-flexible-inside{
+        display: none;
+      }
+    }
+  }
 }
 
 .workspace-row{
@@ -102,7 +109,7 @@
       }
       &:after{
         content: "";
-        background-image: url("../assets/images/next-icon.svg");
+        background-image: url("../onet-images/next-icon.svg");
         background-repeat: no-repeat;
         padding: 0px 12px;
         background-position: center right;
@@ -154,7 +161,7 @@
       .see-all{
         &:after{
           content: "";
-          background-image: url("../assets/images/next-icon.svg");
+          background-image: url("../onet-images/next-icon.svg");
           background-repeat: no-repeat;
           padding: 0px 12px;
           background-position: center right;
@@ -290,7 +297,7 @@
       }
       &:before{
         content: "";
-        background-image: url("../assets/images/arrow-icon.svg");
+        background-image: url("../onet-images/arrow-icon.svg");
         background-repeat: no-repeat;
         padding: 0px 6px;
         background-position: center;
