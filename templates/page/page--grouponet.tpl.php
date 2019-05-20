@@ -28,7 +28,7 @@ else {
       <div class="col-md-3 col-sm-2 col-xs-12 logo-holder">
         <?php if ($logo): ?>
           <a class="logo" href="/group/onet" title="<?php print t('Home'); ?>">
-            <img src="<?php echo $base_url.'/sites/all/themes/ipbes_new/onet-images/logo-full.png';?>" alt="<?php print t('Home'); ?>" />
+            <img src="<?php echo $base_url.'/sites/all/themes/ipbes_new/assets/images/logo-full.png';?>" alt="<?php print t('Home'); ?>" />
           </a>
         <?php endif; ?>
       </div>
@@ -180,7 +180,7 @@ $aliaspath = drupal_get_path_alias();
   <div class="row">
     <div class="col-lg-2 col-md-3 col-sm-6">
       <div class="image">
-        <img src="/sites/all/themes/ipbes_new/onet-images/logo-footer.png">
+        <img src="/sites/all/themes/ipbes_new/assets/images/logo-footer.png">
       </div>
     </div>
 <!--     <div class="col-lg-1"></div>
