@@ -5,4 +5,8 @@
 .idea
 bower_components
 node_modules
-assets
+assets/css
+assets/fonts
+assets/img
+
+

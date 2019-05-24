@@ -182,7 +182,7 @@
 
 @media screen and (min-width: 768px){
   .onet-main-wrapper{
-    margin-top: 170px;
+    margin-top: 200px;
   }
   .header-main{
     position: fixed;
@@ -208,7 +208,7 @@
         .logo-holder{
           padding: 0px;
           img{
-            width: 50% !important;
+            width: 60% !important;
             -webkit-transition: all 0.3s;
             @media screen and (max-width: 1024px){
               padding: 15px 0;
@@ -237,7 +237,7 @@
   .logo-holder{
     a{
       img{
-        width: 50% !important;
+        width: 70% !important;
         padding: 15px 0 0 0;
       }
     }

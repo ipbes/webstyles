@@ -1,9 +1,9 @@
 .page-group-onet-organisation-members, .page-group-onet-individual-member{
   h1.page-header{
     font-family: Helvetica;
-    font-size: 44px;
+    font-size: 40px;
     font-weight: 900;
-    color: #333333;
+    color: #002e62;
     border: none;
     margin: 0px;
   }
@@ -25,6 +25,9 @@
           box-shadow: none;
           border-color: #ccc;
         }
+      }
+      label{
+        color: #002e62;
       }
     }
     .views-submit-button{
@@ -100,6 +103,9 @@
             box-shadow: none;
             border-color: #ccc;
           }
+        }
+        label{
+          color: #002e62;
         }
       }
       .views-reset-button{
