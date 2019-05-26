@@ -213,7 +213,7 @@ $aliaspath = drupal_get_path_alias();
           <p>© Copyright ONet  |  All Rights Reserved.</p>
         </div>
         <div class="col-sm-6 right">
-          <p>Privacy Policy  |  Terms & Conditions</p>
+          <p><a href="/privacy-policy">Privacy Policy</a></p>
         </div>
       </div>
     </div>
