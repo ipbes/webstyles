@@ -28,7 +28,7 @@ else {
       <div class="col-md-3 col-sm-2 col-xs-12 logo-holder">
         <?php if ($logo): ?>
           <a class="logo" href="/group/onet" title="<?php print t('Home'); ?>">
-            <img src="<?php echo $base_url.'/sites/all/themes/ipbes_new/assets/images/logo-full.png';?>" alt="<?php print t('Home'); ?>" />
+            <img src="<?php echo $base_url.'/sites/all/themes/ipbes_new/assets/images/logo-full.svg';?>" alt="<?php print t('Home'); ?>" />
           </a>
         <?php endif; ?>
       </div>
@@ -72,26 +72,26 @@ else {
       </div> 
       <!-- /.navigation -->
       <div class="col-md-4 col-sm-4 col-xs-10 register-links-group">
-      	<?php 
-      	global $user;
-      	if($user->uid != 0){
-      		if($display_login_menu):
+        <?php 
+        global $user;
+        if($user->uid != 0){
+          if($display_login_menu):
               $block = block_load('dkan_sitewide', 'dkan_sitewide_user_menu');
               if($block):
                 $user_menu = _block_get_renderable_array(_block_render_blocks(array($block)));
                 print render($user_menu);
               endif;
             endif;
-      	}
-      	else {
-      		?>
+        }
+        else {
+          ?>
           <div class="content">
             <p><a class="" href="/user/login">Login</a>
               <a class="join" href="/user/register">Register</a></p>
           </div>
-      		<?php
-      	}
-      	?>
+          <?php
+        }
+        ?>
       </div>
     </div>
   </div>
@@ -180,7 +180,7 @@ $aliaspath = drupal_get_path_alias();
   <div class="row">
     <div class="col-lg-2 col-md-3 col-sm-6">
       <div class="image">
-        <img src="/sites/all/themes/ipbes_new/assets/images/logo-footer.png">
+        <img src="/sites/all/themes/ipbes_new/assets/images/logo-footer.svg">
       </div>
     </div>
 <!--     <div class="col-lg-1"></div>
